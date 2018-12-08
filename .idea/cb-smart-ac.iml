@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/ac-api/src/service" isTestSource="true" packagePrefix="service\" />
+      <sourceFolder url="file://$MODULE_DIR$/ac-api/tests" isTestSource="true" packagePrefix="Tests\" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/container-interop/container-interop" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/doctrine/annotations" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/nikic/fast-route" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/phpunit/php-token-stream" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/phpunit/phpunit-mock-objects" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/pimple/pimple" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/slim/php-view" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/slim/slim" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/ac-api/vendor/zircote/swagger-php" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
