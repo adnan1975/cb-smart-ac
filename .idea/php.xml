@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/ac-api/vendor/zircote/swagger-php" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/container-interop/container-interop" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/composer" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/pimple/pimple" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/slim/slim" />
+      <path value="$PROJECT_DIR$/ac-api/vendor/slim/php-view" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="5.5.0" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="$PROJECT_DIR$/ac-api/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+</project>
