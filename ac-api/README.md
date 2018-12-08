@@ -1,27 +1,32 @@
-# Slim Framework 3 Skeleton Application
+# CB AC Api 
+API Server
 
-Use this skeleton application to quickly setup and start working on a new Slim Framework 3 application. This application uses the latest Slim 3 with the PHP-View template renderer. It also uses the Monolog logger.
+a Slim php based API with swagger 
 
-This skeleton application was built for Composer. This makes setting up a new Slim Framework application quick and easy.
+Database used is MySQL 
 
-## Install the Application
+please check the file database.sql for sql scripts
 
-Run this command from the directory in which you want to install your new Slim Framework application.
+Only if php had a decent collections or streaming this would been much more fun. 
 
-    php composer.phar create-project slim/slim-skeleton [my-app-name]
+Main router  is device which has all device related endpoints 
 
-Replace `[my-app-name]` with the desired directory name for your new application. You'll want to:
+DeviceService class is reponsible of device related business logic. 
 
-* Point your virtual host document root to your new application's `public/` directory.
-* Ensure `logs/` is web writeable.
 
-To run the application in development, you can run these commands 
+to access swagger endpoint check 
+http://104.248.180.30/v1/api-doc/index.html#/
 
-	cd [my-app-name]
-	php composer.phar start
+technical notes are here https://github.com/adnan1975/cb-smart-ac/wiki/Acme-AC-Unit-Application-Technical-Notes
 
-Run this command in the application directory to run the test suite
 
-	php composer.phar test
+The manipulation of data is largely due to support adminconsole features such as listing, searching, 
+pagination and graps etc. 
 
-That's it! Now go build something cool.
+Content-Range header is used for pagination
+
+
+Next steps is to add ORM, test coverage, logs etc. 
+
+
+
