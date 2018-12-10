@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="164e784e-7280-4ff6-8f29-75bc5616ab7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/cb-smart-ac.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cb-admin/.idea/cb-admin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cb-admin/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cb-admin/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cb-admin/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cb-admin/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cb-admin/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cb-admin/node_modules/.bin/acorn" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cb-admin/node_modules/.bin/ansi-html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cb-admin/node_modules/.bin/atob" afterDir="false" />
@@ -8906,24 +8897,12 @@
       <change afterPath="$PROJECT_DIR$/../cb-admin/node_modules/yargs/node_modules/y18n/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cb-admin/node_modules/yargs/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cb-admin/node_modules/yargs/yargs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cb-admin/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cb-admin/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cb-admin/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cb-admin/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cb-admin/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cb-admin/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cb-admin/src/Dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cb-admin/src/Notificator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cb-admin/src/SimpleSnackbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cb-admin/src/authProvider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cb-admin/src/devices.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cb-admin/src/folderlists.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cb-admin/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cb-admin/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cb-admin/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cb-admin/src/measurementReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cb-admin/src/serviceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cb-admin/src/table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cb-admin/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cb-admin/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cb-admin/src/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cb-admin/src/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cb-admin/src/authProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cb-admin/src/authProvider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cb-admin/src/devices.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cb-admin/src/devices.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9009,21 +8988,29 @@
     <session id="-876833172">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="713" />
-          <entry key="txt" value="167" />
+          <entry key="txt" value="183" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="713" />
-          <entry key="PLAIN_TEXT" value="167" />
+          <entry key="PLAIN_TEXT" value="183" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.revision" value="1" />
+          <entry key="git.branch.create.new" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -9083,6 +9070,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -9171,7 +9163,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -9205,6 +9196,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -9277,6 +9269,8 @@
       <workItem from="1544069079101" duration="2536000" />
       <workItem from="1544085053224" duration="47749000" />
       <workItem from="1544252499267" duration="1442000" />
+      <workItem from="1544254173306" duration="589000" />
+      <workItem from="1544386239978" duration="798000" />
     </task>
     <task id="LOCAL-00001" summary="Commiting the code for the API&#10;&#10;This is not normal commit so I am writing much documentation. It is not peer reviewed.">
       <created>1544253189739</created>
@@ -9306,12 +9300,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80073000" />
+    <option name="totallyTimeSpent" value="81460000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="830" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="827" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
