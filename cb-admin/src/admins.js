@@ -1,4 +1,4 @@
-import React,{Fragment} from 'react';
+import React from 'react';
 import BlockButton from './BlockButton';
 
 import {
@@ -20,17 +20,9 @@ import {
 const AdminFilter = props => (
     <Filter {...props}>
         <SearchInput source="q" alwaysOn />
-
     </Filter>
 );
 
-
-const AdminBulkActionButtons = props => (
-    <Fragment>
-        <BlockButton  label="Bock/Unblock" {...props} />
-
-    </Fragment>
-);
 
 
 const AdminActions = ({
@@ -70,16 +62,16 @@ const AdminActions = ({
 
 
 export const AdminList = props => (
-    <List {...props} actions={<AdminActions /> } bulkActionButtons={AdminBulkActionButtons}
-          filters={<AdminFilter />}
 
-    >
+    <List {...props} actions={<AdminActions />}
+          filters={<AdminFilter />} >
         <Datagrid >
             <TextField source="id" />
             <TextField source="name" />
             <TextField source="username" />
             <EmailField source="email" />
             <ShowButton />
+            <BlockButton  label="Block/Unblock" {...props} />
         </Datagrid>
     </List>
 );

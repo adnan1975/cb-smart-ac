@@ -133,20 +133,18 @@ class DeviceService
                 $device = $devices[$row["id"]];
 
 
-                array_push($device["temperature"], array(
-                    array("value" => $row["temperature"], "moment" => $row["unix_time"]),
-                ));
+                array_push($device["temperature"],
+                    array("value" => $row["temperature"], "moment" => $row["unix_time"])
+                );
 
 
-                array_push($device["humidity"], array(
-                    array("value" => $row["humidity"], "moment" => $row["unix_time"]),
+                array_push($device["humidity"],
+                    array("value" => $row["humidity"], "moment" => $row["unix_time"]
                 ));
-                array_push($device["ppm"], array(
-                    array("value" => $row["ppm"], "moment" => $row["unix_time"]),
-                ));
-                array_push($device["healthStatus"], array(
-                    array("value" => $row["healthStatus"], "moment" => $row["unix_time"]),
-                ));
+                array_push($device["ppm"],
+                    array("value" => $row["ppm"], "moment" => $row["unix_time"]));
+                array_push($device["healthStatus"],
+                    array("value" => $row["healthStatus"], "moment" => $row["unix_time"]));
 
                 $devices[$row["id"]] = $device;
             }
@@ -244,7 +242,7 @@ class DeviceService
                     }
                     $ts = date("Y-m-d H:i:s");
                     if (!empty($row["createdOn"])) {
-                        $ts = date("Y-m-d H:m:s", $row["createdOn"]);
+                        $ts = date("Y-m-d H:i:s", $row["createdOn"]);
 
                     }
                     $statments[] = $pdo->prepare(sprintf($format,
@@ -304,6 +302,12 @@ class DeviceService
     public
     function getDevicesMock($index = null, $rangeArray = null, $filter = null)
     {
+
+        $now = time();
+        $ten_minutes = $now + (10 * 60);
+
+
+
         $targets = array();
         $j = 201;
         $i = 1;

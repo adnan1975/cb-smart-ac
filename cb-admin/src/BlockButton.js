@@ -1,18 +1,56 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import { Button, crudUpdateMany } from 'react-admin';
+import React, {Component} from 'react';
 
-class BlockButton extends Component {
-    handleClick = () => {
-        const { basePath, crudUpdateMany, resource, selectedIds } = this.props;
-        crudUpdateMany(resource, selectedIds, { views: 0 }, basePath);
+import Button from '@material-ui/core/Button';
+import Dialog from '@material-ui/core/Dialog';
+import DialogActions from '@material-ui/core/DialogActions';
+import DialogContent from '@material-ui/core/DialogContent';
+import DialogContentText from '@material-ui/core/DialogContentText';
+import DialogTitle from '@material-ui/core/DialogTitle';
+
+
+export default class BlockButton extends Component {
+    state = {
+        open: false,
+    };
+
+    handleClickOpen = () => {
+        this.setState({open: true});
+    };
+
+    handleClose = () => {
+        this.setState({open: false});
     };
 
     render() {
         return (
-            <Button label="Reset Views" onClick={this.handleClick} />
+            <div>
+                <Button variant="outlined" color="primary" onClick={this.handleClickOpen}>
+                    Block
+                </Button>
+                <Dialog
+                    open={this.state.open}
+                    onClose={this.handleClose}
+                    aria-labelledby="alert-dialog-title"
+                    aria-describedby="alert-dialog-description">
+                    <DialogTitle id="alert-dialog-title">Block this Admin </DialogTitle>
+                    <DialogContent>
+                        <DialogContentText id="alert-dialog-description">
+                            This will block user (work in progress)
+                        </DialogContentText>
+                    </DialogContent>
+                    <DialogActions>
+                        <Button onClick={this.handleClose} color="primary">
+                            Cancel
+                        </Button>
+                        <Button onClick={this.handleClose} color="primary" autoFocus>
+                            Ok
+                        </Button>
+                    </DialogActions>
+                </Dialog>
+            </div>
         );
+
     }
+
 }
 
-export default connect(undefined, { crudUpdateMany })(BlockButton);
