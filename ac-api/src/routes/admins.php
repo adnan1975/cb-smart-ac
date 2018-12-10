@@ -66,6 +66,8 @@ $app->get('/api/v1/admins', function (Request $request, Response $response, arra
         $filter = null;
     }
 
+
+
     $range = str_replace("[", "", $request->getQueryParam("range"));
     $range = str_replace("]", "", $range);
 

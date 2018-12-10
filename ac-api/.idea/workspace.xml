@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="164e784e-7280-4ff6-8f29-75bc5616ab7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cb-admin/node_modules/.bin/acorn" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cb-admin/node_modules/.bin/ansi-html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cb-admin/node_modules/.bin/atob" afterDir="false" />
@@ -8898,11 +8897,6 @@
       <change afterPath="$PROJECT_DIR$/../cb-admin/node_modules/yargs/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cb-admin/node_modules/yargs/yargs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cb-admin/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cb-admin/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cb-admin/src/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cb-admin/src/Dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cb-admin/src/authProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cb-admin/src/authProvider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cb-admin/src/devices.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cb-admin/src/devices.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -8988,11 +8982,12 @@
     <session id="-876833172">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -9162,7 +9157,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -9196,6 +9190,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -9271,6 +9266,7 @@
       <workItem from="1544252499267" duration="1442000" />
       <workItem from="1544254173306" duration="589000" />
       <workItem from="1544386239978" duration="798000" />
+      <workItem from="1544419412354" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="Commiting the code for the API&#10;&#10;This is not normal commit so I am writing much documentation. It is not peer reviewed.">
       <created>1544253189739</created>
@@ -9300,12 +9296,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81460000" />
+    <option name="totallyTimeSpent" value="81464000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="827" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />

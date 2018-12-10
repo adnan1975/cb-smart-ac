@@ -31,9 +31,30 @@ class AdminService
         for (; $i <= $j; $i++) {
 
 
+            $name = $faker->name;
 
-            $targets[] = array('id' => $i . "", 'name' => $faker->name,
-                'username' =>$faker->userName,
+            if (!empty($filter) && is_array($filter)) {
+
+                $needle = $filter[1];
+
+
+                $test1 = stristr("$name", trim($needle));
+                $test2 = strcasecmp("$name", trim($needle));
+
+                if ($test1 === FALSE && $test2 !== 0) {
+
+                    $faker->userName;
+                    $faker->companyEmail;
+
+                    continue;
+                }
+
+
+            }
+
+            $targets[] = array('id' => $i . "",
+                'name' => $name,
+                'username' => $faker->userName,
                 "email" => $faker->companyEmail
             );
 
